@@ -14,7 +14,6 @@ spec:
     oci: weaveworks/ignite-kernel:5.10.51
   memory: 400MB
   network:
-    ipAddresses: 10.61.0.17
     ports:
     - hostPort: 8978
       vmPort: 3000
