@@ -22,6 +22,7 @@ spec:
   ssh: true
   storage: {}
 status:
+  running: true
   idPrefix: ""
   image:
     id: null
