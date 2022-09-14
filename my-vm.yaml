@@ -3,7 +3,7 @@ kind: VM
 metadata:
   created: "2022-09-14T06:42:26Z"
   name: jadwalin-online
-  uid: d91559c1-6947-4809-bd11-f56ffe7f3189
+  uid: 56ffe7f3189
 spec:
   cpus: 2
   diskSize: 3GB
@@ -22,17 +22,17 @@ spec:
   ssh: true
   storage: {}
 status:
-  idPrefix: ""
+  idPrefix: "dev"
   image:
     id: d0c2c32696e1cffc
-    size: 0B
+    size: 270.9MB
   kernel:
-    id: null
-    size: 0B
+    id: 290ff541080c86fb
+    size: 71.3MB
   network:
     ipAddresses: 10.61.0.17
     plugin: "cni"
   running: true
   runtime:
-    id: ""
-    name: ""
+    id: "56ffe7f3189"
+    name: "containerd"
