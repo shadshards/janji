@@ -25,11 +25,11 @@ spec:
 status:
   idPrefix: ""
   image:
-    id: null
-    size: 0B
+    id: oci://docker.io/weaveworks/ignite-amazonlinux@sha256:6b4f3a907b2f848c55a91240a4c0620e5620ac91358088f7c8bcc58139795e9f
+    size: 277368KB
   kernel:
-    id: null
-    size: 0B
+    id: oci://docker.io/weaveworks/ignite-kernel@sha256:a992aa9f7b6f5e7945e72610017c3f4f38338ff1452964e30410bb6110a794a7
+    size: 73052KB
   network:
     ipAddresses: null
     plugin: ""
