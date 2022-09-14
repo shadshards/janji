@@ -19,11 +19,4 @@ spec:
   sandbox:
     oci: weaveworks/ignite:v0.10.0
   ssh: true 
-  storage:
-    # Optional, an array of mountPath and name pairs,
-    # set the mount points for named volumes inside the VM.
-    # Names must match configured named volumes.
-    # Default: unset, no mount points
-    volumeMounts:
-    - mountPath: /mnt
-      name: volume3
+  storage:{}
