@@ -1,7 +1,6 @@
 apiVersion: ignite.weave.works/v1alpha4
 kind: VM
 metadata:
-  uid: 4f491a9605852407
   created: "2022-09-14T06:42:26Z"
   name: jadwalin-online
 spec:
@@ -20,12 +19,19 @@ spec:
   sandbox:
     oci: weaveworks/ignite:v0.10.0
   ssh: true 
-  storage: {}
+  storage:
+    # Optional, an array of mountPath and name pairs,
+    # set the mount points for named volumes inside the VM.
+    # Names must match configured named volumes.
+    # Default: unset, no mount points
+    volumeMounts:
+    - mountPath: /mnt
+      name: volume3
 status:
   idPrefix: "dev"
   image:
-    id: d0c2c32696e1cffc
-    size: 270.9MB
+    id: 90c1fa8c40aeeae6
+    size: 20.9MB
   kernel:
     id: 290ff541080c86fb
     size: 71.3MB
