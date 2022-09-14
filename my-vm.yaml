@@ -1,14 +1,35 @@
 apiVersion: ignite.weave.works/v1alpha4
 kind: VM
 metadata:
+  created: "2022-09-14T06:42:26Z"
   name: jadwalinOnline
   uid: d91559c1-6947-4809-bd11-f56ffe7f3189
 spec:
-  image:
-    oci: weaveworks/ignite-amazonlinux
   cpus: 2
   diskSize: 3GB
+  image:
+    oci: weaveworks/ignite-amazonlinux:latest
+  kernel:
+    cmdLine: console=ttyS0 reboot=k panic=1 pci=off ip=dhcp
+    oci: weaveworks/ignite-kernel:5.10.51
   memory: 400MB
+  network: {}
+  sandbox:
+    oci: weaveworks/ignite:v0.10.0
   ssh: true
+  storage: {}
 status:
+  idPrefix: ""
+  image:
+    id: null
+    size: 0B
+  kernel:
+    id: null
+    size: 0B
+  network:
+    ipAddresses: null
+    plugin: ""
   running: true
+  runtime:
+    id: ""
+    name: ""
