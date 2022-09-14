@@ -19,4 +19,4 @@ spec:
   sandbox:
     oci: weaveworks/ignite:v0.10.0
   ssh: true 
-  storage:{}
+  storage: {}
