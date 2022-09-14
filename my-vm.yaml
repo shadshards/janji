@@ -2,7 +2,7 @@ apiVersion: ignite.weave.works/v1alpha4
 kind: VM
 metadata:
   created: "2022-09-14T06:42:26Z"
-  name: jadwalin-online
+  name: jadwalin-onlines
 spec:
   cpus: 1
   diskSize: 3GB
