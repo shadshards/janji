@@ -1,0 +1,14 @@
+apiVersion: ignite.weave.works/v1alpha4
+kind: VM
+metadata:
+  name: jadwalinOnline
+  uid: 599615df99804ae8
+spec:
+  image:
+    oci: weaveworks/ignite-amazonlinux
+  cpus: 2
+  diskSize: 3GB
+  memory: 400MB
+  ssh: true
+status:
+  running: true
