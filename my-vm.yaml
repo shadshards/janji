@@ -22,17 +22,16 @@ spec:
   ssh: true
   storage: {}
 status:
-  running: true
   idPrefix: ""
   image:
-    id: null
+    id: d0c2c32696e1cffc
     size: 0B
   kernel:
     id: null
     size: 0B
   network:
-    ipAddresses: null
-    plugin: ""
+    ipAddresses: 10.61.0.17
+    plugin: "cni"
   running: true
   runtime:
     id: ""
