@@ -1,7 +1,7 @@
 apiVersion: ignite.weave.works/v1alpha4
 kind: VM
 metadata:
-  uid: 4f491a9605852409xd c
+  uid: 4f491a9605852409
   created: "2022-09-14T06:42:26Z"
   name: jadwalin-online
 spec:
@@ -34,5 +34,4 @@ status:
     plugin: "cni"
   running: true
   runtime:
-    id: 0e814d07-931a-4a6a-a715-37aa7c3c6682
     name: "containerd"
