@@ -27,20 +27,3 @@ spec:
     volumeMounts:
     - mountPath: /mnt
       name: volume3
-status:
-  idPrefix: "dev"
-  image:
-    id: 90c1fa8c40aeeae6
-    size: 20.9MB
-  kernel:
-    id: 290ff541080c86fb
-    size: 71.3MB
-  network:
-    ipAddresses: [
-      10.61.0.17
-    ]
-    plugin: "cni"
-  running: true
-  runtime:
-    id: ignite-4f491a9605852407
-    name: "containerd"
