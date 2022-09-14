@@ -3,7 +3,6 @@ kind: VM
 metadata:
   created: "2022-09-14T06:42:26Z"
   name: jadwalin-online
-  uid: 56ffe7f3189
 spec:
   cpus: 2
   diskSize: 3GB
@@ -34,5 +33,4 @@ status:
     plugin: "cni"
   running: true
   runtime:
-    id: "56ffe7f3189"
     name: "containerd"
