@@ -17,6 +17,7 @@ spec:
     ports:
     - hostPort: 8978
       vmPort: 3000
+      protocol: tcp
   sandbox:
     oci: weaveworks/ignite:v0.10.0
   ssh: true
