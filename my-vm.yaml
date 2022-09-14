@@ -15,9 +15,9 @@ spec:
   memory: 400MB
   network:
     ports:
-    - hostPort: 8978
+    - bindAddress: 10.61.0.17
+      hostPort: 8978
       vmPort: 3000
-      bindAddress: 10.61.0.17
   sandbox:
     oci: weaveworks/ignite:v0.10.0
   ssh: true
