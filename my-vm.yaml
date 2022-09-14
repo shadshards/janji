@@ -2,7 +2,7 @@ apiVersion: ignite.weave.works/v1alpha4
 kind: VM
 metadata:
   name: jadwalinOnline
-  uid: 599615df99804ae8
+  uid: d91559c1-6947-4809-bd11-f56ffe7f3189
 spec:
   image:
     oci: weaveworks/ignite-amazonlinux
