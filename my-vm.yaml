@@ -15,8 +15,7 @@ spec:
   memory: 400MB
   network:
     ports:
-    - bindAddress: 10.61.0.17
-      hostPort: 8978
+    - hostPort: 8978
       vmPort: 3000
   sandbox:
     oci: weaveworks/ignite:v0.10.0
@@ -25,11 +24,11 @@ spec:
 status:
   idPrefix: ""
   image:
-    id: oci://docker.io/weaveworks/ignite-amazonlinux@sha256:6b4f3a907b2f848c55a91240a4c0620e5620ac91358088f7c8bcc58139795e9f
-    size: 277368KB
+    id: null
+    size: 0B
   kernel:
-    id: oci://docker.io/weaveworks/ignite-kernel@sha256:a992aa9f7b6f5e7945e72610017c3f4f38338ff1452964e30410bb6110a794a7
-    size: 73052KB
+    id: null
+    size: 0B
   network:
     ipAddresses: null
     plugin: ""
