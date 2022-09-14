@@ -1,7 +1,7 @@
 apiVersion: ignite.weave.works/v1alpha4
 kind: VM
 metadata:
-  uid: 4f491a9605852409
+  uid: 4f491a9605852407
   created: "2022-09-14T06:42:26Z"
   name: jadwalin-online
 spec:
@@ -11,7 +11,7 @@ spec:
     oci: weaveworks/ignite-amazonlinux:latest
   kernel:
     cmdLine: console=ttyS0 reboot=k panic=1 pci=off ip=dhcp
-    oci: weaveworks/ignite-kernel:5.10.51
+    oci: weaveworks/ignite-amazon-kernel
   memory: 400MB
   network:
     ports:
@@ -30,8 +30,11 @@ status:
     id: 290ff541080c86fb
     size: 71.3MB
   network:
-    ipAddresses: 10.61.0.17
+    ipAddresses: [
+      10.61.0.17
+    ]
     plugin: "cni"
   running: true
   runtime:
+    id: ignite-4f491a9605852407
     name: "containerd"
